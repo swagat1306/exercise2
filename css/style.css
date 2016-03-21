@@ -90,3 +90,14 @@ footer{
 #images_grid div{
   padding: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 10px;
+    }
+    .gr a:hover .name{
+      margin-top: 20%;
+      width: 150px;
+      text-align: center;
+      display: block;
+}
